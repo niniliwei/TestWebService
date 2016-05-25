@@ -9,7 +9,7 @@ server.connection({
 
 server.route({
 	method: 'GET',
-	path: '/test',
+	path: '/',
 	handler: (req, reply) => {
 		reply('test');
 	}
